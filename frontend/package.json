@@ -1,7 +1,8 @@
 {
-  "name": "react-firebase-app",
+  "name": "hide-and-seek-app",
   "version": "1.0.0",
-  "private": true,
+  "description": "A React app for playing hide and seek with team selection and player tracking.",
+  "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -9,23 +10,18 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "firebase": "^9.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.4.3"
+    "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2"
+    "@types/react-dom": "^17.0.2",
+    "typescript": "^4.1.3"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "homepage": ".",
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",

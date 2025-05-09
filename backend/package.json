@@ -1,0 +1,25 @@
+{
+  "name": "multiplayer-backend",
+  "version": "1.0.0",
+  "description": "A backend for a multiplayer application using WebSockets for real-time communication.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^22.15.17",
+    "@types/socket.io": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
